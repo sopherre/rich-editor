@@ -13,9 +13,7 @@
   },
   "homepage": "https://github.com/sopherre/rich-editor#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "main": "node main",
-    "premain": "node main",
+    "prebuild": "sh scripts/delete-dist.sh",
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
