@@ -1,0 +1,23 @@
+{
+  "name": "sopherre-rich-editor",
+  "version": "1.0.1",
+  "description": "Sopherre Rich Editor",
+  "author": "Sopherre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sopherre/rich-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sopherre/rich-editor/issues"
+  },
+  "homepage": "https://github.com/sopherre/rich-editor#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node main",
+    "premain": "node main",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "main": "dist/main.js"
+}
