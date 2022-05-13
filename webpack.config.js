@@ -3,10 +3,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: "./src/route/index.tsx",
-  output: {
-    path: `${__dirname}/dist/dev`,
-    filename: "main.js"
-  },
   devtool: "eval-source-map",
   module: {
     rules: [{ test: /\.tsx?$/, use: "ts-loader" }]
