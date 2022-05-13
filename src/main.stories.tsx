@@ -5,14 +5,14 @@ import { SopherreRichEditor, SopherreRichEditorProps } from "./main";
 
 export default {
   title: "Editor",
-  component: SopherreRichEditor,
+  component: SopherreRichEditor
 } as ComponentMeta<typeof SopherreRichEditor>;
 
 export const Editor = (props: SopherreRichEditorProps) => (
   <SopherreRichEditor {...props} />
 );
 
-const Template: ComponentStory<typeof SopherreRichEditor> = (arg) => (
+const Template: ComponentStory<typeof SopherreRichEditor> = arg => (
   <SopherreRichEditor {...arg} />
 );
 
