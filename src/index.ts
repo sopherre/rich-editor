@@ -1,0 +1,1 @@
+export { SopherreRichEditor } from "./main";
