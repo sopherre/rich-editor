@@ -1,7 +1,10 @@
 import * as React from "react";
 
-const SopherreRichEditor: React.FC = () => {
-  return <div>SopherreRichEditor</div>;
+export interface SopherreRichEditorProps {
+  label: string;
+}
+export const SopherreRichEditor: React.FC<SopherreRichEditorProps> = (
+  props
+) => {
+  return <div>SopherreRichEditor Test {props.label}</div>;
 };
-
-export { SopherreRichEditor };
